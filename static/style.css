@@ -1,0 +1,44 @@
+body {
+    font-family: 'Play', sans-serif;
+    background-image: linear-gradient(to right, #2C2F33, #23272A);
+}
+
+.ml-auto {
+    margin-right: 100px;
+}
+
+.navbar-brand {
+    margin-left: 80px;
+}
+
+.err {
+    font-size: 100px;
+    text-align: center;
+}
+
+#err {
+    font-size: 32px;
+    text-align: center;
+}
+
+.err-hr {
+    background-color: #FFFFFF;
+}
+
+#title {
+    font-size: 48px;
+}
+
+.badge {
+    font-size: 23px !important;
+}
+
+#link {
+    color: #7289DA;
+}
+
+.alert-extradark {
+    background-color: #36393d;
+    color: #FFFFFF;
+    text-align: center;
+}
