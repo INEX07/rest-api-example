@@ -16,15 +16,18 @@ Simple and easy to use rest api example.
 # Examples [ Fetching ]
 
 - GET
+
 ```js
 const fetch = require("node-fetch");
 
 fetch("https://localhost:3000/api/ping")
     .then(res => res.json())
     .then(body => console.log(body));
+    
 ```
 
 - POST
+
 ```js
 const fetch = require("node-fetch");
 
@@ -33,9 +36,11 @@ fetch("https://localhost:3000/api/something", {
     })
     .then(res => res.json())
     .then(body => console.log(body));
+    
 ```
 
 - Headers
+
 ```js
 const fetch = require("node-fetch");
 
@@ -47,6 +52,7 @@ fetch("https://localhost:3000/api/something", {
     })
     .then(res => res.json())
     .then(body => console.log(body));
+    
 ```
 
 # Website Preview
