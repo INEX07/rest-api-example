@@ -57,3 +57,5 @@ fetch("https://localhost:3000/api/something", {
 
 # Website Preview
 [Click Me](https://restapiexample.glitch.me)
+
+![preview](https://github.com/INEX07/rest-api-example/blob/master/assets/image.png)
