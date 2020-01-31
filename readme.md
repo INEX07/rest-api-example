@@ -1,4 +1,4 @@
-# REST API EXAMPLE
+# [REST API EXAMPLE](https://inex07.github.io/rest-api-example/)
 Simple and easy to use rest api example.
 
 # Methods
