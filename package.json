@@ -1,0 +1,32 @@
+{
+  "name": "rest-api-example",
+  "version": "0.0.1",
+  "description": "Simple and easy to use rest api example.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INEX07/rest-api-example.git"
+  },
+  "keywords": [
+    "rest",
+    "rest-api",
+    "rest-api-example"
+  ],
+  "author": "INEX07",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/INEX07/rest-api-example/issues"
+  },
+  "homepage": "https://github.com/INEX07/rest-api-example#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
