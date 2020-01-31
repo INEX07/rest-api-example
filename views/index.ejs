@@ -1,0 +1,18 @@
+<%- include("./blocks/nav.ejs") %>
+<br><br><br>
+<div class="container">
+    <div class="jumbotron bg-dark text-white">
+        <center>
+            <img src="/icon.png" class="img-fluid img-rounded" draggable="false" height="200" width="200">
+            <br><br>
+            <h1 id="title">REST API EXAMPLE</h1><span class="badge badge-primary">v<%= version %></span>
+            <br><br>
+            <h4>Simple and easy to use rest api example.</h4>
+            <br><br><br>
+            <button onclick="redirect('/api/docs')" class="btn btn-primary"><i class="fas fa-book"></i> Documentation</button>
+            <button onclick="redirect('https://github.com/INEX07/rest-api-example')" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</button>
+            <button onclick="redirect('/')" class="btn btn-info"><i class="fas fa-laptop-code"></i> Examples</button>
+        </center>
+    </div>
+</div>
+<%- include("./blocks/footer.ejs") %>

@@ -1,0 +1,43 @@
+<%- include("./blocks/nav.ejs") %>
+
+<br><br><br>
+<div class="container">
+    <div class="jumbotron text-white" style="background: none;">
+        <div class="alert alert-extradark" role="alert">
+            Base URL: <b>https://localhost:3000/api</b>
+        </div>
+        <br><br>
+        <table class="table table-hover table-dark table-striped">
+            <thead>
+                <tr>
+                    <td>S.N.</td>
+                    <td>Name</td>
+                    <td>URL</td>
+                    <td>Method</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Ping</td>
+                    <td><a id="link" href="/api/ping" target="_blank">/ping</a></td>
+                    <td>GET</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Something</td>
+                    <td><a id="link" href="/api/something" target="_blank">/something</a></td>
+                    <td>POST</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Auth</td>
+                    <td><a id="link" href="/api/auth" target="_blank">/auth</a></td>
+                    <td>GET, POST</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<%- include("./blocks/footer.ejs") %>
